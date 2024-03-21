@@ -1,2 +1,10 @@
-teste: 'fofofoo'
-teste2: 'kkdkdk'
+title: "Francisco Ossian"
+description: "Explore o portfólio, projetos, blog e outras informações de Francisco Ossian sobre tecnologia e desenvolvimento web."
+keywords: "Francisco Ossian, Portfólio, Projetos, Blog, Tecnologia, Desenvolvimento Web"
+
+OG:
+  title: "Francisco Ossian - Site"
+  description: "Explore o portfólio, projetos, blog e outras informações de Francisco Ossian sobre tecnologia e desenvolvimento web."
+  url: "https://www.foln.dev/"
+  type: "website"
+  keywords: "Francisco Ossian, Portfólio, Projetos, Blog, Tecnologia, Desenvolvimento Web"
