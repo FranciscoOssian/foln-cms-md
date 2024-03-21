@@ -1,0 +1,13 @@
+title: "Blog"
+categories:
+  - "Tecnologia"
+  - "Desenvolvimento Web"
+description: "Explore os artigos e posts de Francisco Ossian sobre tecnologia, desenvolvimento web, e muito mais."
+keywords: "Francisco Ossian, Tecnologia, Desenvolvimento Web, Artigos, Posts"
+
+OG:
+  title: "Blog - Francisco Ossian"
+  description: "Explore os artigos e posts de Francisco Ossian sobre tecnologia, desenvolvimento web, e muito mais."
+  url: "https://www.foln.dev/blog"
+  type: "blog"
+  keywords: "Francisco Ossian, Tecnologia, Desenvolvimento Web, Artigos, Posts"
