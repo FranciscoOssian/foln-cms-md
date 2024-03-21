@@ -2,6 +2,7 @@
 CMS stored on github for my website, all .md file is a post, website transform in html on build time and in revalidate
 
 # settings.yml example
+
 ```yaml
 # Default values are provided for the following settings:
 # If a setting is not provided, the default value will be used.
