@@ -6,14 +6,16 @@ Olá! Meu nome é Francisco Ossian, e sou um entusiasta da tecnologia apaixonado
 - Perfil de quem sempre quer entregar o seu melhor.
 - Vontade de envolver com a equipe para gerar para ela bons frutos. 
 
-## Experiências
+<section id="professional-experience">
+
+### EXPERIÊNCIA
 
 - Tenho experiência consolidada como desenvolvedor front-end e mobile, trabalhando principalmente com tecnologias como React.js, Next.js e React Native com Expo.
 - Experiência em projetos pessoais com C, C++, Python.
 
 Desde 2019, venho desenvolvendo projetos pessoais e comerciais nessas áreas, o que me permitiu aprimorar minhas habilidades e ampliar meu conhecimento.
 
-### EXPERIÊNCIA PROFISSIONAL
+<div id="time-line">
 
 - Desenvolvedor front-end na Advance Comunicação
   - março/2021 - abril/2023
@@ -21,6 +23,10 @@ Desde 2019, venho desenvolvendo projetos pessoais e comerciais nessas áreas, o 
 - Pesquisador desenvolvedor no Lab. de Otimização e Gestão Inteligente
   - ago/2019 - dez/2019
   - Construção de um modelo de requisitos para uma API RESTful. Tendo com isso uma grande contribuição tanto para meu aprendizado profissional quanto de vida
+
+</div>
+</section>
+
 
 ## Projetos
 
