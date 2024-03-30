@@ -23,13 +23,13 @@ Desde 2019, venho desenvolvendo projetos pessoais e comerciais nessas áreas, o 
   - Lab. de Otimização e Gestão Inteligente; ago de 2019 - dez de 2019 · 5 meses
   - Construção de um modelo de requisitos para uma API RESTful. Tendo com isso uma grande contribuição tanto para meu aprendizado profissional quanto de vida
 -
-  - Chalk App
-  - Projeto pessoal; ago/2021 - o momento · 2 anos 8 meses
-  - Uma rede social para conhecer novas pessoas e assim futuros amigos, parceiros, grupos. Tendo um simples sistema de match feito especialmente para o aplicativo. Feito em React native + firebase SDK. Em breve será feito o deploy na google play Store.
--
   - Desenvolvedor front-end
   - Advance Comunicação; mar de 2021 - mai de 2023 · 2 anos 3 meses
   - Desenvolvi e mantive sites usando React.js e Next.js, focando na otimização da experiência do usuário e performance. Criei    componentes reutilizáveis, aumentando a eficiência da equipe, e contribuí para a automação de processos.
+-
+  - Chalk App
+  - Projeto pessoal; ago/2021 - o momento · 2 anos 8 meses
+  - Uma rede social para conhecer novas pessoas e assim futuros amigos, parceiros, grupos. Tendo um simples sistema de match feito especialmente para o aplicativo. Feito em React native + firebase SDK. Em breve será feito o deploy na google play Store.
 
 </div>
 </section>
