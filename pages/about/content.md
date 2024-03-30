@@ -19,13 +19,13 @@ Desde 2019, venho desenvolvendo projetos pessoais e comerciais nessas áreas, o 
 <div id="time-line">
 
 -
-  - Desenvolvedor front-end
-  - Advance Comunicação; março/2021 - abril/2023
-  - Desenvolvi e mantive sites usando React.js e Next.js, focando na otimização da experiência do usuário e performance. Criei    componentes reutilizáveis, aumentando a eficiência da equipe, e contribuí para a automação de processos.
--
   - Pesquisador desenvolvedor
   - Lab. de Otimização e Gestão Inteligente; ago/2019 - dez/2019
   - Construção de um modelo de requisitos para uma API RESTful. Tendo com isso uma grande contribuição tanto para meu aprendizado profissional quanto de vida
+-
+  - Desenvolvedor front-end
+  - Advance Comunicação; março/2021 - abril/2023
+  - Desenvolvi e mantive sites usando React.js e Next.js, focando na otimização da experiência do usuário e performance. Criei    componentes reutilizáveis, aumentando a eficiência da equipe, e contribuí para a automação de processos.
 
 </div>
 </section>
