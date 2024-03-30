@@ -31,6 +31,45 @@ Desde 2019, venho desenvolvendo projetos pessoais e comerciais nessas áreas, o 
   - Projeto pessoal; ago/2021 - o momento · 2 anos 8 meses
   - Uma rede social para conhecer novas pessoas e assim futuros amigos, parceiros, grupos. Tendo um simples sistema de match feito especialmente para o aplicativo. Feito em React native + firebase SDK. Em breve será feito o deploy na google play Store.
 
+### Experiências
+
+-
+  - **Cargo:** Desenvolvedor Front-End | Mobile
+  - **Empresa:** Chalk - Mobile App
+  - **Tipo:** Projetos Pessoais
+  - **Período:** Ago 2021 - Atualmente
+  - **Duração:** 2 anos 8 meses
+  - **Descrição:**
+    Uma rede social para conhecer novas pessoas e assim futuros amigos, parceiros, grupos. Tendo um simples sistema de match feito especialmente para o aplicativo. Feito em React Native + Firebase SDK. Em breve será feito o deploy na Google Play Store.
+  - **Habilidades:**
+    - React Native
+    - Firebase
+-
+  - **Cargo:** Desenvolvedor Front-end
+  - **Empresa:** Advance Comunicação
+  - **Tipo:** Meio Período
+  - **Período:** Mar 2021 - Mai 2023
+  - **Duração:** 2 anos 3 meses
+  - **Descrição:**
+    - Desenvolvimento e manutenção de websites utilizando as tecnologias React.js e Next.js, com foco em otimizar a experiência do usuário e a performance da aplicação.
+    - Criação de bibliotecas e componentes reutilizáveis para React.js, a fim de aumentar a produtividade da equipe e garantir a consistência visual e funcional dos projetos.
+    - Contribuição para a automação de processos, visando a melhoria contínua do workflow e a redução de erros humanos.
+  - **Habilidades:**
+    - React.js
+    - Next.js
+    - Otimização para mecanismos de busca (SEO)
+-
+  - **Cargo:** Desenvolvedor e Pesquisador
+  - **Empresa:** LOGIN - Laboratório de Otimização e Gestão Inteligente
+  - **Tipo:** Temporário
+  - **Período:** Ago 2019 - Dez 2019
+  - **Duração:** 5 meses
+  - **Descrição:**
+    Construção de um modelo de requisitos para uma API RESTful de um serviço. Tendo com isso uma grande contribuição tanto para meu aprendizado profissional quanto de vida, sendo de início mais a nível de uso e indo ao técnico.
+  - **Habilidades:**
+    - Desenvolvimento Front-end
+    - API RESTful
+
 </div>
 </section>
 
