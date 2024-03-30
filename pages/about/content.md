@@ -3,8 +3,9 @@
 Olá! Meu nome é Francisco Ossian, e sou um entusiasta da tecnologia apaixonado por desenvolvimento de software. Atualmente, estou cursando Ciência da Computação na Universidade Estadual do Ceará (UECE).
 
 ## Perfil
+
 - Perfil de quem sempre quer entregar o seu melhor.
-- Vontade de envolver com a equipe para gerar para ela bons frutos. 
+- Vontade de envolver com a equipe para gerar para ela bons frutos.
 
 <section id="professional-experience">
 
@@ -17,18 +18,17 @@ Desde 2019, venho desenvolvendo projetos pessoais e comerciais nessas áreas, o 
 
 <div id="time-line">
 
-- 1
+-
   - Desenvolvedor front-end
   - Advance Comunicação; março/2021 - abril/2023
   - Desenvolvi e mantive sites usando React.js e Next.js, focando na otimização da experiência do usuário e performance. Criei    componentes reutilizáveis, aumentando a eficiência da equipe, e contribuí para a automação de processos.
-- 2
+-
   - Pesquisador desenvolvedor
   - Lab. de Otimização e Gestão Inteligente; ago/2019 - dez/2019
   - Construção de um modelo de requisitos para uma API RESTful. Tendo com isso uma grande contribuição tanto para meu aprendizado profissional quanto de vida
 
 </div>
 </section>
-
 
 ## Projetos
 
@@ -42,6 +42,6 @@ Procuro uma carreira que me ofereça desafios estimulantes, oportunidades de cre
 
 ## Contato
 
-Se você gostaria de entrar em contato comigo para oportunidades profissionais, colaborações ou simplesmente para trocar ideias, fique à vontade para me enviar um e-mail em francisco.ossian.ln@gmail.com.
+Se você gostaria de entrar em contato comigo para oportunidades profissionais, colaborações ou simplesmente para trocar ideias, fique à vontade para me enviar um e-mail em <francisco.ossian.ln@gmail.com>.
 
 Estou ansioso para colaborar em projetos interessantes e continuar expandindo meu conhecimento e experiência na área de tecnologia!
