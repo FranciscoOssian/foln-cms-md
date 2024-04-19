@@ -1,0 +1,62 @@
+title: "Francisco Ossian"
+categories:
+  - "Tecnologia"
+  - "Desenvolvimento Web"
+description: "Francisco Ossian, desenvolvedor fullstack. (js, python, C++, C)"
+keywords: "Francisco Ossian, Tecnologia, Desenvolvimento Web, Artigos, Posts"
+
+OG:
+  title: "Francisco Ossian"
+  description: "Francisco Ossian, desenvolvedor fullstack. (js, python, C++, C)"
+  url: "https://www.foln.dev"
+  type: "website"
+  keywords: "Francisco Ossian, Tecnologia, Desenvolvimento Web, Artigos, Posts"
+
+#--------------------------------------------------------------------------------       
+#-------------------------------☝️ SEO  -----------------------------------------
+# -------------------------------------------------------------------------------
+#-------------------------------👇 Content --------------------------------------
+#--------------------------------------------------------------------------------
+
+about:
+  title: Olá
+  text: >
+    Sou Francisco Ossian, um entusiasta da tecnologia
+    apaixonado por transformar ideias em realidade.
+    Com uma combinação de determinação, criatividade e habilidades
+    técnicas, estou sempre pronto para enfrentar novos
+    desafios e entregar resultados excepcionais.
+    Vamos trabalhar juntos para tornar seus projetos uma realidade!
+
+what_i_do:
+  title: O QUE EU FAÇO
+  text: >
+    Transformar conceitos em soluções digitais. Desde o desenvolvimento de
+    sites responsivos até a criação de aplicativos móveis intuitivos,
+    estou aqui para alcançar seus objetivos. Com expertise em tecnologias
+    como React.js, React Native, Python e muito mais, estou preparado para
+    enfrentar qualquer desafio.
+  link: https://api.whatsapp.com/send/?phone=5555859920485&text&type=phone_number&app_absent=0
+
+projects:
+  - title: Chalk
+    description: >
+      Rede social de descoberta de novas conecções, como um sistema de match
+      como o tinder, e bate bapo.
+    link: lll
+    tags: [react-native, firebase, realmDB, i18N, expo]
+  - title: Code Slide
+    description: Criador de Slides a partir de Markdonw
+    tags: []
+    link: ldknc
+  - title: Blog
+    description: Meu blog pessoal (dentro desse site) que uso para postar coisas da área.
+    tags: []
+    link: kmkd
+  - title: Site do ISGH
+    description: >
+      Desenvolvido junto com a equipa da Advance, de qual fiz
+      parte da equipe de desenvolvimento web. Tive tutoria de um desenvolvedor sênior
+      em cada etapa
+    tags: ""
+    link: ""
