@@ -2,6 +2,20 @@
 
 All of these notes its just about C++. C features and C programming are not included (for focus in C++ features, style, design).
 
+## Contents
+
+- Contents
+- refs
+- A tour of c++: The Basics
+- Scope resolution operator
+- Class
+- Enumerations
+- Namespaces
+- "Using" Directives
+- handling namespace + .h + .cpp
+- Error Handling
+- Exceptions
+
 ## refs
 
 - [https://en.wikipedia.org/wiki/Scope_resolution_operator](https://en.wikipedia.org/wiki/Scope_resolution_operator)
@@ -247,7 +261,7 @@ namespace Student{
 Student::readBook();
 ```
 
-## `Using` Directives
+## "Using" Directives
 
 Enables names within a namespace to be used without the namespace-name as an explicit qualifier.
 
