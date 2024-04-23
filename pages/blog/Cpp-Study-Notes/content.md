@@ -42,19 +42,19 @@ int x = B::c; // scope operator refers to the integer c declared in the namespac
 class Car {
   public: 
     std::string model;
-      float accelerationTimeFrom0To100;
-      void showCar();
-      Car () {
-        std::cout << "Hello World! This is a constructor\n";
-      }
+    float accelerationTimeFrom0To100;
+    void showCar();
+    Car () {
+      std::cout << "Hello World! This is a constructor\n";
+    }
 
-    private:
-      bool windonIsOpen;
-      void openWindow(){
-        if(this->windonIsOpen) this->windonIsOpen = false;
-        else this->windonIsOpen = true;
-      }
-      void startEngine();
+  private:
+    bool windonIsOpen;
+    void openWindow(){
+      if(this->windonIsOpen) this->windonIsOpen = false;
+      else this->windonIsOpen = true;
+    }
+    void startEngine();
 };
 
 void Car::showCar(){
