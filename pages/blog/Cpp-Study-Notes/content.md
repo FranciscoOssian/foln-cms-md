@@ -4,17 +4,17 @@ All of these notes its just about C++. C features and C programming are not incl
 
 ## Contents
 
-- Contents
-- refs
-- A tour of c++: The Basics
-- Scope resolution operator
-- Class
-- Enumerations
-- Namespaces
-- "Using" Directives
-- handling namespace + .h + .cpp
-- Error Handling
-- Exceptions
+- [Contents](#contents)
+- [refs](#refs)
+- [A tour of c++: The Basics](#a-tour-of-c-the-basics)
+- [Scope resolution operator](#scope-resolution-operator)
+- [Class](class)
+- [Enumerations](enumerations)
+- [Namespaces](namespaces)
+- ["Using" Directives](#quotusingquot-directives)
+- [handling namespace + .h + .cpp](#handling-namespace-h-cpp)
+- [Error Handling](error-handling)
+- [Exceptions](exceptions)
 
 ## refs
 
