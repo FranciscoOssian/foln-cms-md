@@ -10,6 +10,7 @@ All of these notes its just about C++. C features and C programming are not incl
 - [https://pt.stackoverflow.com/questions/87622/o-que-significa-o-em-c](https://pt.stackoverflow.com/questions/87622/o-que-significa-o-em-c)
 - [https://learn.microsoft.com/pt-br/cpp/cpp](https://learn.microsoft.com/pt-br/cpp/cpp)
 - [https://cplusplus.com/](https://cplusplus.com/)
+- [https://www.geeksforgeeks.org/](https://www.geeksforgeeks.org/)
 
 ## A tour of c++: The Basics
 
@@ -33,7 +34,7 @@ int A::i = 4; // scope operator refers to the integer i declared in the class A
 int x = B::c; // scope operator refers to the integer c declared in the namespace B
 ```
 
-## Classes and Objects
+## Class
 
 ```c++
 #include <iostream>
@@ -80,13 +81,95 @@ int main() {
 - acess with "."
 - deleted when escope finish
 
+### Initializer List
+
 ```c++
-void Car::showCar(){
-  std::cout << "showing car\n";
+class Point {
+  private:
+    int x;
+    int y;
+ 
+  public:
+    Point(int i = 0, int j = 0): x(i), y(j) {}
+    /*  can also be written as:
+        Point(int i = 0, int j = 0) {
+            this->x = i;
+            this->y = j;
+        }
+    */
+    int getX() const { return x; }
+    int getY() const { return y; }
+};
+```
+
+### Type of Classes
+
+#### Concrete classes
+
+It's a class that can be initiate directly. They usually contains complete implementations for all methods. In other words, a concrete class provides implementations for all the methods it declares.
+
+#### Abstract classes
+
+An abstract class is a class that contains purely virtual methods. This means that the class does not provide implementations for at least one of its methods, making it unable to be instantiated directly. Abstract classes serve as models for other classes that must provide implementations for virtual methods defined in the abstract classe.
+
+```c++
+class Shape {
+  public:
+    virtual void draw();
+};
+
+class Circle : public Shape {
+  public:
+    void draw() override {
+      std::cout << "Drawing a circle\n";
+    }
+};
+
+int main() {
+    Circle circle;
+    circle.draw();
+    return 0;
 }
 ```
 
-You can define a method after write the class
+#### Classes in class hierarchies
+
+...
+
+### constructor and destructor
+
+```c++
+class Box {
+  
+  private:
+    int width;
+    int height;
+    int length;
+  
+  public:
+    Box() {} // constructor
+      
+    Box(int i){  // constructor
+      this->width = i;
+      this->height = i;
+      this->length = i;
+    }
+
+    Box(int width, int height, int length){  // constructor
+      this->width = width;
+      this->height = height;
+      this->length = length;
+    }
+
+    ~Box() {  // destructor
+      // If any resource has been dynamically allocated, it can be deallocated here
+    }
+
+    int Volume() { return this->width * this->height * this->lenght; }
+};
+```
+
+### Invariants
 
 ## Enumerations
 
