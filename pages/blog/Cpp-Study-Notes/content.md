@@ -8,13 +8,13 @@ All of these notes its just about C++. C features and C programming are not incl
 - [refs](#refs)
 - [A tour of c++: The Basics](#a-tour-of-c-the-basics)
 - [Scope resolution operator](#scope-resolution-operator)
-- [Class](class)
-- [Enumerations](enumerations)
-- [Namespaces](namespaces)
+- [Class](#class)
+- [Enumerations](#enumerations)
+- [Namespaces](#namespaces)
 - ["Using" Directives](#quotusingquot-directives)
 - [handling namespace + .h + .cpp](#handling-namespace-h-cpp)
-- [Error Handling](error-handling)
-- [Exceptions](exceptions)
+- [Error Handling](#error-handling)
+- [Exceptions](#exceptions)
 
 ## refs
 
