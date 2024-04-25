@@ -29,30 +29,69 @@ All of these notes its just about C++. C features and C programming are not incl
 ## A tour of c++: The Basics
 
 ISO C++ defines two kinds of entities
+
 - Standard-library
 - Core language and I/O operations
 
 ## Scope resolution operator
 
+It is used for the following purposes:
+
+- Access a global variable even with a local variable with the same name.
+
 ```c++
-class A {
-    public:
-        static int i; // scope of A
+int temperature = 35;//ºC
+int home(){
+  int temperature = 10;//ºC
+  std::cout << ::temperature; // output 35
+  std::cout << temperature;   // output 10
+}
+```
+
+- To define a function outside a class
+
+```c++
+class Dog{
+  public:
+    int age;
+    void bark();
 };
 
-namespace B {
-    int c = 2;
-} // namespace B
+void Dog::bark() { // outside of main function
+  std::cout << "wolf wolf wolf wolf";
+};
+```
 
-int A::i = 4; // scope operator refers to the integer i declared in the class A
-int x = B::c; // scope operator refers to the integer c declared in the namespace B
+- To access a class's static variables or namespace variables
+
+```c++
+class Bottle{
+  public:
+    static int max_weight;
+};
+namespace Bag{
+  Brush my_Brush;
+  int weight;
+}
+  
+int Bottle::max_weight = 5;//L
+int main() {
+  Bag::weight = 3;//kg
+  std::cout << Bag::weight << '\n' << Bottle::max_weight << '\n';
+  return 0;
+}
+
+// output "3 \n 5 \n"
 ```
 
 ## Class
 
-```c++
-#include <iostream>
+> "The central language feature of C++ is the class" 
+>
+> <cite>Stroustrup, Bjarne. The C++ Programming Language. 4th ed., Addison-Wesley, 2013.</cite>
 
+
+```c++
 class Car {
   public: 
     std::string model;
@@ -208,8 +247,8 @@ Traffic_light& operator++(Traffic_light& t)
 }
 Traffic_light next = ++light; // next becomes Traffic_light::green
 ```
-C++ also offers a less strongly typed ‘‘plain’’ enum (§8.4.2).
 
+C++ also offers a less strongly typed ‘‘plain’’ enum (§8.4.2).
 
 ## Namespaces
 
@@ -323,4 +362,3 @@ int FooBar::Bar(){
 
 - throw
 - try-catch
-
