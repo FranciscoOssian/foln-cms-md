@@ -362,3 +362,57 @@ int FooBar::Bar(){
 
 - throw
 - try-catch
+
+## Overloading Operators
+
+### Examples
+
+```c++
+class MyClass {
+  private:
+    int value;
+  public:
+    MyClass(int val) : value(val) {}
+    MyClass operator+(const MyClass& other) const {
+      return MyClass(value + other.value);
+    }
+    void print() const { std::cout << "Value: " << value << std::endl; }
+};
+
+int main() {
+  MyClass obj1(5);
+  MyClass obj2(3);
+
+  MyClass result_add = obj1 + obj2;
+
+  result_add.print();  // Output: Value: 8
+
+  return 0;
+}
+```
+
+```c++
+std::string operator*(const std::string& str, int multiplier) {
+  std::string result;
+  for (int i = 0; i < multiplier; ++i) {
+    result += str;
+  }
+  return result;
+}
+
+std::string operator*(int multiplier, const std::string& str) {
+  return str * multiplier;
+}
+
+int main() {
+  std::string s = "abc";
+  int n = 3;
+
+  std::string repeated = n * s;
+
+  // Output: "abcabcabc"
+  std::cout << "Resultado: " << repeated << std::endl;
+
+  return 0;
+}
+```
