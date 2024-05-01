@@ -421,55 +421,49 @@ int main() {
 
 ### All operators you can overload
 
-1. **Aritmetic**:
+- **Aritmetic**:
+  - `+` (addition)
+  - `-` (subtraction)
+  - `*` (multiplication)
+  - `/` (division)
+  - `%` (modulo)
 
-- `+` (addition)
-- `-` (subtraction)
-- `*` (multiplication)
-- `/` (division)
-- `%` (modulo)
+- **Assignment**:
+  - `=` (assignment)
+  - `+=` (addition assignment)
+  - `-=` (subtraction assignment)
+  - `*=` (multiplication assignment)
+  - `/=` (division assignment)
+  - `%=` (modulo assignment)
 
-2. **Assignment**:
+- **Increment/Decrement**:
+  - `++` (pre-increment and post-increment)
+  - `--` (pre-decrement and post-decrement)
 
-- `=` (assignment)
-- `+=` (addition assignment)
-- `-=` (subtraction assignment)
-- `*=` (multiplication assignment)
-- `/=` (division assignment)
-- `%=` (modulo assignment)
+- **Comparison**:
+  - `==` (equality)
+  - `!=` (inequality)
+  - `<` (less than)
+  - `>` (greater than)
+  - `<=` (less than or equal to)
+  - `>=` (greater than or equal to)
 
-3. **Increment/Decrement**:
+- **Logical/Bitwise**:
+  - `!` (logical NOT)
+  - `&&` (logical AND)
+  - `||` (logical OR)
+  - `&` (bitwise AND)
+  - `|` (bitwise OR)
+  - `^` (bitwise XOR)
+  - `~` (bitwise NOT)
+  - `<<` (left shift)
+  - `>>` (right shift)
 
-- `++` (pre-increment and post-increment)
-- `--` (pre-decrement and post-decrement)
-
-4. **Comparison**:
-
-- `==` (equality)
-- `!=` (inequality)
-- `<` (less than)
-- `>` (greater than)
-- `<=` (less than or equal to)
-- `>=` (greater than or equal to)
-
-5. **Logical/Bitwise**:
-
-- `!` (logical NOT)
-- `&&` (logical AND)
-- `||` (logical OR)
-- `&` (bitwise AND)
-- `|` (bitwise OR)
-- `^` (bitwise XOR)
-- `~` (bitwise NOT)
-- `<<` (left shift)
-- `>>` (right shift)
-
-6. **Others**:
-
-- `()` (function call)
-- `[]` (array indexing)
-- `->` (member access through pointer)
-- `,` (comma, expression separator)
+- **Others**:
+  - `()` (function call)
+  - `[]` (array indexing)
+  - `->` (member access through pointer)
+  - `,` (comma, expression separator)
 
 ## Templates
 
