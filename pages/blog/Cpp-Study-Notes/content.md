@@ -416,3 +416,19 @@ int main() {
   return 0;
 }
 ```
+
+## Templates
+
+> A template is a class or a function that we parameterize with a set of types or values
+>
+> <cite>Stroustrup, Bjarne. The C++ Programming Language. 4th ed., Addison-Wesley, 2013.</cite>
+
+- Dinamic type templates
+  - Template Metaprogramming
+  - SFINAE (Substitution Failure Is Not An Error)
+  - Common Mistakes and Best Practices
+
+- Fixed type templates
+  - Template argument deduction
+  - Template specialization
+  - Templates with fixed data types
