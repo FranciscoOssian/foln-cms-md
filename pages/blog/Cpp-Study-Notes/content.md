@@ -1,6 +1,9 @@
 # Cpp study notes
 
-All of these notes its just about C++. C features and C programming are not included (for focus in C++ features, style, design).
+All these notes are solely focused on C++. C features and C programming are excluded (to emphasize C++ features, style, and design).
+Additionally, there is no coverage of introductory OOP concepts.
+
+These notes are a cleaner and straight to the point version, intended for my personal use. Feel free to study from the sources I referenced here. The goal is not to literally teach, but rather to serve as a pocket guide.
 
 ## Contents
 
@@ -86,10 +89,9 @@ int main() {
 
 ## Class
 
-> "The central language feature of C++ is the class" 
+> "The central language feature of C++ is the class"
 >
 > <cite>Stroustrup, Bjarne. The C++ Programming Language. 4th ed., Addison-Wesley, 2013.</cite>
-
 
 ```c++
 class Car {
@@ -417,9 +419,61 @@ int main() {
 }
 ```
 
+### All operators you can overload
+
+1. **Aritmetic**:
+
+- `+` (addition)
+- `-` (subtraction)
+- `*` (multiplication)
+- `/` (division)
+- `%` (modulo)
+
+2. **Assignment**:
+
+- `=` (assignment)
+- `+=` (addition assignment)
+- `-=` (subtraction assignment)
+- `*=` (multiplication assignment)
+- `/=` (division assignment)
+- `%=` (modulo assignment)
+
+3. **Increment/Decrement**:
+
+- `++` (pre-increment and post-increment)
+- `--` (pre-decrement and post-decrement)
+
+4. **Comparison**:
+
+- `==` (equality)
+- `!=` (inequality)
+- `<` (less than)
+- `>` (greater than)
+- `<=` (less than or equal to)
+- `>=` (greater than or equal to)
+
+5. **Logical/Bitwise**:
+
+- `!` (logical NOT)
+- `&&` (logical AND)
+- `||` (logical OR)
+- `&` (bitwise AND)
+- `|` (bitwise OR)
+- `^` (bitwise XOR)
+- `~` (bitwise NOT)
+- `<<` (left shift)
+- `>>` (right shift)
+
+6. **Others**:
+
+- `()` (function call)
+- `[]` (array indexing)
+- `->` (member access through pointer)
+- `,` (comma, expression separator)
+
 ## Templates
 
-> A template is a class or a function that we parameterize with a set of types or values
+> "A template is a class or a function that we parameterize with a set of types or values"
 >
 > <cite>Stroustrup, Bjarne. The C++ Programming Language. 4th ed., Addison-Wesley, 2013.</cite>
 
@@ -432,3 +486,22 @@ int main() {
   - Template argument deduction
   - Template specialization
   - Templates with fixed data types
+
+### alias template
+
+You can write, `usign` directive to create a alias type for template
+
+```c++
+template<typename T>
+void print(const T& value) {
+  using MyType = T;
+  MyType MyValue = value;
+  std::cout << "Value: " << MyValue << std::endl;
+}
+
+int main(){
+  print<float>(10.5);
+  print<int>(10);
+  print(10.1); // Template argument deduction
+}
+```
