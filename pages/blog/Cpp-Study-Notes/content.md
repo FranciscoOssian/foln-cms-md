@@ -421,49 +421,26 @@ int main() {
 
 ### All operators you can overload
 
-- **Aritmetic**:
-  - `+` (addition)
-  - `-` (subtraction)
-  - `*` (multiplication)
-  - `/` (division)
-  - `%` (modulo)
+| **Aritmetic**  | **Assignment**  | **Increment/Decrement**  |
+|--------------: |---------------- |------------------------- |
+| +              | =               | ++                       |
+| -              | +=              | --                       |
+| *              | -=              |                          |
+| /              | *=              |                          |
+| %              | /=              |                          |
+|                | %=              |                          |
 
-- **Assignment**:
-  - `=` (assignment)
-  - `+=` (addition assignment)
-  - `-=` (subtraction assignment)
-  - `*=` (multiplication assignment)
-  - `/=` (division assignment)
-  - `%=` (modulo assignment)
-
-- **Increment/Decrement**:
-  - `++` (pre-increment and post-increment)
-  - `--` (pre-decrement and post-decrement)
-
-- **Comparison**:
-  - `==` (equality)
-  - `!=` (inequality)
-  - `<` (less than)
-  - `>` (greater than)
-  - `<=` (less than or equal to)
-  - `>=` (greater than or equal to)
-
-- **Logical/Bitwise**:
-  - `!` (logical NOT)
-  - `&&` (logical AND)
-  - `||` (logical OR)
-  - `&` (bitwise AND)
-  - `|` (bitwise OR)
-  - `^` (bitwise XOR)
-  - `~` (bitwise NOT)
-  - `<<` (left shift)
-  - `>>` (right shift)
-
-- **Others**:
-  - `()` (function call)
-  - `[]` (array indexing)
-  - `->` (member access through pointer)
-  - `,` (comma, expression separator)
+| **Comparison**  | **Logical/Bitwise**  | **Others**  |
+|---------------- |--------------------- |------------ |
+| ==              | !                    | ()          |
+| !=              | &&                   | []          |
+| <               | \|\|                 | ->          |
+| >               | &                    | ,           |
+| <=              | \|                   |             |
+| >=              | ^                    |             |
+|                 | ~                    |             |
+|                 | <<                   |             |
+|                 | >>                   |             |
 
 ## Templates
 
