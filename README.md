@@ -3,7 +3,7 @@ Data stored for my website.
 An attempt to create a different CMS that is easy to create and edit, without having to deal with other services.
 The annoying part is creating the functions to access the content of the files, but this can be solved if the idea becomes a project with its own lib to manipulate the data.
 
-# settings.yml example
+# settings.yml example.
 
 Noting here the wording of the special settings.yaml file, the webserver converts it to json and uses the data. Any values ​​relating to the project or more focused data such as SEO or openGraph can be used
 
