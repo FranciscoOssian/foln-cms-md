@@ -43,20 +43,20 @@ projects:
     description: >
       Rede social de descoberta de novas conecções, como um sistema de match
       como o tinder, e bate bapo.
-    link: lll
+    link: https://play.google.com/store/apps/details?id=com.foln.chalk
     tags: [react-native, firebase, realmDB, i18N, expo]
   - title: Code Slide
-    description: Criador de Slides a partir de Markdonw
-    tags: []
-    link: ldknc
+    description: Criador de Slides a partir de Markdonw. Escreva slides usando markdown, compile e compartilhe com amigos usando p2p. Powered by Markdown Presentation Ecosystem
+    tags: [markdonw-slides, slide-generator, markdonw, react-native, next.js]
+    link: https://codeslide.foln.dev/
   - title: Blog
     description: Meu blog pessoal (dentro desse site) que uso para postar coisas da área.
-    tags: []
-    link: kmkd
+    tags: [blog, react.js, next.js, CMS, githubAPI, graphQL]
+    link: https://www.foln.dev/blog
   - title: Site do ISGH
     description: >
       Desenvolvido junto com a equipa da Advance, de qual fiz
       parte da equipe de desenvolvimento web. Tive tutoria de um desenvolvedor sênior
       em cada etapa
-    tags: ""
-    link: ""
+    tags: "react.js, next.js"
+    link: "https://www.isgh.org.br/"
