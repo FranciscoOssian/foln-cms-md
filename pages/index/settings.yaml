@@ -58,5 +58,5 @@ projects:
       Desenvolvido junto com a equipa da Advance, de qual fiz
       parte da equipe de desenvolvimento web. Tive tutoria de um desenvolvedor sênior
       em cada etapa
-    tags: "react.js, next.js"
+    tags: [react.js, next.js]
     link: "https://www.isgh.org.br/"
