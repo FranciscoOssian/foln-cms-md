@@ -43,17 +43,25 @@ projects:
     description: >
       Rede social de descoberta de novas conecções, como um sistema de match
       como o tinder, e bate bapo.
+    shortDescription: Aplicativo
     link: https://play.google.com/store/apps/details?id=com.foln.chalk
     tags: [react-native, firebase, realmDB, i18N, expo]
+    type: 'Rede social'
   - title: Code Slide
+    type: Ferramenta
+    shortDescription: Criador de Slides
     description: Criador de Slides a partir de Markdonw. Escreva slides usando markdown, compile e compartilhe com amigos usando p2p. Powered by Markdown Presentation Ecosystem
     tags: [markdonw-slides, slide-generator, markdonw, react-native, next.js]
     link: https://codeslide.foln.dev/
   - title: Blog
+    type: site
+    shortDescription: Blog com CMS
     description: Meu blog pessoal (dentro desse site) que uso para postar coisas da área.
     tags: [blog, react.js, next.js, CMS, githubAPI, graphQL]
     link: https://www.foln.dev/blog
-  - title: Site do ISGH
+  - title: Site do ISGH • Em equipe
+    type: Site institucional
+    shortDescription: Site institucional do ISGH
     description: >
       Desenvolvido junto com a equipa da Advance, de qual fiz
       parte da equipe de desenvolvimento web. Tive tutoria de um desenvolvedor sênior
