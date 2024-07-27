@@ -68,8 +68,8 @@ projects:
   - title: Site do ISGH • Em equipe
     type: Site institucional
     shortDescription: Site institucional do ISGH
-    videoUrl: ''
-    media: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/screen-20240725-095002~2.mp4?alt=media&token=5e8eff78-4b89-458f-9fcb-4ae51ead27a4
+    videoUrl: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/screen-20240725-095002~2.mp4?alt=media&token=5e8eff78-4b89-458f-9fcb-4ae51ead27a4
+    media: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/unnamed.jpg?alt=media&token=cd395f22-84fd-4eff-8667-71321091868d
     description: >
       Desenvolvido junto com a equipa da Advance, de qual fiz
       parte da equipe de desenvolvimento web. Tive tutoria de um desenvolvedor sênior
