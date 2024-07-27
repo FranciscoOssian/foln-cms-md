@@ -1,1 +1,15 @@
-title: Guide to Virtual Machines, Virt Manager, QEMU, and KVM
+title: Guide to VM's + Virt Manager
+tags:
+  - "KVM"
+  - "QEMU"
+  - Virt Manager
+  - VM's
+description:  Guide to Virtual Machines, Virt Manager, QEMU, and KVM
+keywords: "Virtual Machines, QEMU, KVM"
+
+OG:
+  title: Blog - Guide to VM's + Virt Manager
+  description: Guide to Virtual Machines, Virt Manager, QEMU, and KVM
+  url: https://www.foln.dev/blog/VirtualMachinesGuide
+  type: blog
+  keywords: "Virtual Machines, QEMU, KVM"

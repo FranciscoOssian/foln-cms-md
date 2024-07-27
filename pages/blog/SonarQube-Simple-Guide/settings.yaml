@@ -1,1 +1,12 @@
 title: Guia simples para uso do SonarQube com Docker
+tags:
+  - "SonarQube"
+  - "Docker"
+description: Guia para SonarQube com Docker
+
+OG:
+  title: Blog - Guia simples para uso do SonarQube com Docker
+  description: Guia para SonarQube com Docker
+  url: https://www.foln.dev/blog/Compilers-My-Notes
+  type: blog
+  keywords: "Programação, Ciências da Computações, Docker, SonaQube"
