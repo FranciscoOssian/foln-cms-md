@@ -21,41 +21,41 @@ OG:
 about:
   title: Olá 👋
   text: >
-    Sou Francisco Ossian, um entusiasta da tecnologia
-    apaixonado por transformar ideias em realidade.
-    Com uma combinação de determinação, criatividade e habilidades
-    técnicas, estou sempre pronto para enfrentar novos
-    desafios e entregar resultados excepcionais.
-    Vamos trabalhar juntos para tornar seus projetos uma realidade!
+    Me chamo Francisco Ossian,
+    sou um profissional da tecnologia apaixonado por transformar ideias em realidade.
+    Com criatividade, determinação e habilidades técnicas,
+    estou sempre pronto para novos desafios.
+    Vamos trabalhar juntos para tornar seu projeto uma realidade?
 
 what_i_do:
   title: O QUE EU FAÇO
   text: >
-    Transformar conceitos em soluções digitais. Desde o desenvolvimento de
-    sites responsivos até a criação de aplicativos móveis intuitivos,
-    estou aqui para alcançar seus objetivos. Com expertise em tecnologias
-    como React.js, React Native, Python e muito mais, estou preparado para
-    enfrentar qualquer desafio.
+    Transformo conceitos em soluções digitais.
+    Desde o desenvolvimento de sites responsivos até a criação de aplicativos móveis intuitivos,
+    estou aqui para alcançar seus objetivos.
+    Com expertise em tecnologias como React.js, React Native, Python e muito mais.
   link: https://api.whatsapp.com/send/?phone=558592048568&text&type=phone_number&app_absent=0
 
 projects:
   - title: Chalk
     description: >
-      Rede social de descoberta de novas conecções, como um sistema de match
-      como o tinder, e bate bapo.
+      Desenvolvimento e lançamento de uma rede social para conectar pessoas,
+      com foco em novos amigos, parceiros e grupos.
+      O aplicativo possui um sistema de "match" customizado,
+      proporcionando uma experiência única.
     shortDescription: Aplicativo
     media: https://media.starlightcms.io/workspaces/foln/folndev/original/chalk-icon-gEQKlyu9TE.png
     videoUrl: ''
     link: https://play.google.com/store/apps/details?id=com.foln.chalk
-    tags: [react-native, firebase, realmDB, i18N, expo]
+    tags: ['React Native', Expo, Firebase, I18N, 'Socket.io', '']
     type: 'Rede social'
   - title: Code Slide
     type: Ferramenta
     media: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/1.png?alt=media&token=651daebc-e8cb-4075-8c05-96c93f8b491a
-    shortDescription: Criador de Slides
+    shortDescription: Criador de Slides a partir de Markdonw, usando Marp como backend e foi criado um site simples e intuitívo para codificar slides.
     videoUrl: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/screen-20240725-095416.mp4?alt=media&token=eac158c8-82af-4d2b-afb6-dc38d8b78226
     description: Criador de Slides a partir de Markdonw. Escreva slides usando markdown, compile e compartilhe com amigos usando p2p. Powered by Markdown Presentation Ecosystem
-    tags: [markdonw-slides, slide-generator, markdonw, react-native, next.js]
+    tags: [markdonw-slides, slide-generator, markdonw, Next.js, next.js]
     link: https://codeslide.foln.dev/
   - title: Blog
     type: site
