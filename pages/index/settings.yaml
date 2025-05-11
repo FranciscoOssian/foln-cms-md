@@ -37,43 +37,42 @@ what_i_do:
   link: https://api.whatsapp.com/send/?phone=558596190031&text&type=phone_number&app_absent=0
 
 projects:
-
-  - title: Chalk,
+  - title: Chalk
     subtitle: >
-      Desenvolvimento e lançamento de uma rede social para conectar pessoas, com foco em novos amigos, parceiros e grupos. O aplicativo possui um sistema de "match" customizado, proporcionando uma experiência única.,
-    tags: ['React native', 'Expo', 'Firebase', 'I18N', 'Socket.io', 'Realm DB'],
-    image: '/bg-placeholder.jpg',
-    context: '',
-    involvement: 'Projeto pessoal',
-    category: 'Aplicativo de rede social',
-    icon: 'https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/chalk-icon-gEQKlyu9TE.png?alt=media&token=25475572-f494-4886-94dd-bfb436586cb4',
+      Desenvolvimento e lançamento de uma rede social para conectar pessoas, com foco em novos amigos, parceiros e grupos. O aplicativo possui um sistema de "match" customizado, proporcionando uma experiência única.
+    tags: [React native, Expo, Firebase, I18N, Socket.io, Realm DB]
+    image: /bg-placeholder.jpg
+    context: ''
+    involvement: Projeto pessoal
+    category: Aplicativo de rede social
+    icon: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/chalk-icon-gEQKlyu9TE.png?alt=media&token=25475572-f494-4886-94dd-bfb436586cb4
 
-  - title: 'CodeSlide',
-    context: '',
-    involvement: 'Projeto pessoal',
-    category: 'Criador de Slides',
-    subtitle:
-        'Criação do Code Slide, uma interface para criação e apresentação de slides feitos a partir de Markdown. Projetei um editor Markdown com visualização em tempo real do slide convertido, uma feature para baixar o slide em formato .html, e uma feature de compartilhamento. Onde usando uma rede p2p o usuário consegue visualizar o slide de outra pessoa e ver a edição',
-    tags: ['React.js', 'Next.js', 'Marp', 'codemirror', 'P2P', 'WebRTC', 'tailwind'],
-    image: '/bg-placeholder.jpg',
-    icon: 'https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/1.png?alt=media&token=651daebc-e8cb-4075-8c05-96c93f8b491a',
+  - title: CodeSlide
+    context: ''
+    involvement: Projeto pessoal
+    category: Criador de Slides
+    subtitle: >
+      Criação do Code Slide, uma interface para criação e apresentação de slides feitos a partir de Markdown. Projetei um editor Markdown com visualização em tempo real do slide convertido, uma feature para baixar o slide em formato .html, e uma feature de compartilhamento. Onde usando uma rede p2p o usuário consegue visualizar o slide de outra pessoa e ver a edição.
+    tags: [React.js, Next.js, Marp, codemirror, P2P, WebRTC, tailwind]
+    image: /bg-placeholder.jpg
+    icon: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/1.png?alt=media&token=651daebc-e8cb-4075-8c05-96c93f8b491a
 
-  - title: 'Site ISGH',
-    context: 'Trabalho',
-    involvement: 'Em equipe',
-    category: 'Web site institucional',  
-    subtitle:
-        'Desenvolvido junto com a equipa da Advance, de qual fiz parte da equipe de desenvolvimento web.',
-    tags: ['React.js', 'Next.js', 'Github API', 'SCSS'],
-    image: '/bg-placeholder.jpg',
-    icon: 'https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/unnamed.jpg?alt=media&token=cd395f22-84fd-4eff-8667-71321091868d',
+  - title: Site ISGH
+    context: Trabalho
+    involvement: Em equipe
+    category: Web site institucional
+    subtitle: >
+      Desenvolvido junto com a equipa da Advance, de qual fiz parte da equipe de desenvolvimento web.
+    tags: [React.js, Next.js, Github API, SCSS]
+    image: /bg-placeholder.jpg
+    icon: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/unnamed.jpg?alt=media&token=cd395f22-84fd-4eff-8667-71321091868d
 
-  - title: 'Blog',
-    context: '',
-    involvement: 'Projeto pessoal',
-    category: 'Web site',
-    subtitle:
-        'Desenvolvimento de um blog como repositório de aprendizado. Feita para isso uma biblioteca para consultar a API do Github e extrair arquivos .md e .yaml em um repositório como CMS do blog, feito em NEXT.js.',
-    tags: ['React.js', 'Next.js', 'Github API', 'tailwind'],
-    image: '/bg-placeholder.jpg',
-    icon: 'https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/emoji-home.png?alt=media&token=47eeebba-9522-41e5-9dc6-143b6db4e810',
+  - title: Blog
+    context: ''
+    involvement: Projeto pessoal
+    category: Web site
+    subtitle: >
+      Desenvolvimento de um blog como repositório de aprendizado. Feita para isso uma biblioteca para consultar a API do Github e extrair arquivos .md e .yaml em um repositório como CMS do blog, feito em NEXT.js.
+    tags: [React.js, Next.js, Github API, tailwind]
+    image: /bg-placeholder.jpg
+    icon: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/emoji-home.png?alt=media&token=47eeebba-9522-41e5-9dc6-143b6db4e810
