@@ -37,42 +37,43 @@ what_i_do:
   link: https://api.whatsapp.com/send/?phone=558596190031&text&type=phone_number&app_absent=0
 
 projects:
-  - title: Chalk
-    description: >
-      Desenvolvimento e lançamento de uma rede social para conectar pessoas,
-      com foco em novos amigos, parceiros e grupos.
-      O aplicativo possui um sistema de "match" customizado,
-      proporcionando uma experiência única.
-    shortDescription: Aplicativo
-    media: https://media.starlightcms.io/workspaces/foln/folndev/original/chalk-icon-gEQKlyu9TE.png
-    videoUrl: ''
-    link: https://play.google.com/store/apps/details?id=com.foln.chalk
-    tags: ['React Native', Expo, Firebase, I18N, 'Socket.io', '']
-    type: 'Rede social'
-  - title: Code Slide
-    type: Ferramenta
-    media: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/1.png?alt=media&token=651daebc-e8cb-4075-8c05-96c93f8b491a
-    shortDescription: Criador de Slides a partir de Markdonw, usando Marp como backend e foi criado um site simples e intuitívo para codificar slides.
-    videoUrl: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/screen-20240725-095416.mp4?alt=media&token=eac158c8-82af-4d2b-afb6-dc38d8b78226
-    description: Criador de Slides a partir de Markdonw. Escreva slides usando markdown, compile e compartilhe com amigos usando p2p. Powered by Markdown Presentation Ecosystem
-    tags: [markdonw-slides, slide-generator, markdonw, Next.js, next.js]
-    link: https://codeslide.foln.dev/
-  - title: Blog
-    type: site
-    shortDescription: Blog com CMS
-    videoUrl: ''
-    description: Meu blog pessoal (dentro desse site) que uso para postar coisas da área.
-    tags: [blog, react.js, next.js, CMS, githubAPI, graphQL]
-    media: https://media.starlightcms.io/workspaces/foln/folndev/original/chalk-icon-gEQKlyu9TE.png
-    link: https://www.foln.dev/blog
-  - title: Site do ISGH • Em equipe
-    type: Site institucional
-    shortDescription: Site institucional do ISGH
-    videoUrl: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/screen-20240725-095002~2.mp4?alt=media&token=5e8eff78-4b89-458f-9fcb-4ae51ead27a4
-    media: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/unnamed.jpg?alt=media&token=cd395f22-84fd-4eff-8667-71321091868d
-    description: >
-      Desenvolvido junto com a equipa da Advance, de qual fiz
-      parte da equipe de desenvolvimento web. Tive tutoria de um desenvolvedor sênior
-      em cada etapa
-    tags: [react.js, next.js]
-    link: https://www.isgh.org.br/
+
+  - title: 'Chalk',
+    subtitle:
+        'Desenvolvimento e lançamento de uma rede social para conectar pessoas, com foco em novos amigos, parceiros e grupos. O aplicativo possui um sistema de "match" customizado, proporcionando uma experiência única.',
+    tags: ['React native', 'Expo', 'Firebase', 'I18N', 'Socket.io', 'Realm DB'],
+    image: '/bg-placeholder.jpg',
+    context: '',
+    involvement: 'Projeto pessoal',
+    category: 'Aplicativo de rede social',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/chalk-icon-gEQKlyu9TE.png?alt=media&token=25475572-f494-4886-94dd-bfb436586cb4',
+
+  - title: 'CodeSlide',
+    context: '',
+    involvement: 'Projeto pessoal',
+    category: 'Criador de Slides',
+    subtitle:
+        'Criação do Code Slide, uma interface para criação e apresentação de slides feitos a partir de Markdown. Projetei um editor Markdown com visualização em tempo real do slide convertido, uma feature para baixar o slide em formato .html, e uma feature de compartilhamento. Onde usando uma rede p2p o usuário consegue visualizar o slide de outra pessoa e ver a edição',
+    tags: ['React.js', 'Next.js', 'Marp', 'codemirror', 'P2P', 'WebRTC', 'tailwind'],
+    image: '/bg-placeholder.jpg',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/1.png?alt=media&token=651daebc-e8cb-4075-8c05-96c93f8b491a',
+
+  - title: 'Site ISGH',
+    context: 'Trabalho',
+    involvement: 'Em equipe',
+    category: 'Web site institucional',  
+    subtitle:
+        'Desenvolvido junto com a equipa da Advance, de qual fiz parte da equipe de desenvolvimento web.',
+    tags: ['React.js', 'Next.js', 'Github API', 'SCSS'],
+    image: '/bg-placeholder.jpg',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/unnamed.jpg?alt=media&token=cd395f22-84fd-4eff-8667-71321091868d',
+
+  - title: 'Blog',
+    context: '',
+    involvement: 'Projeto pessoal',
+    category: 'Web site',
+    subtitle:
+        'Desenvolvimento de um blog como repositório de aprendizado. Feita para isso uma biblioteca para consultar a API do Github e extrair arquivos .md e .yaml em um repositório como CMS do blog, feito em NEXT.js.',
+    tags: ['React.js', 'Next.js', 'Github API', 'tailwind'],
+    image: '/bg-placeholder.jpg',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/emoji-home.png?alt=media&token=47eeebba-9522-41e5-9dc6-143b6db4e810',
