@@ -38,9 +38,9 @@ what_i_do:
 
 projects:
 
-  - title: 'Chalk',
-    subtitle:
-        'Desenvolvimento e lançamento de uma rede social para conectar pessoas, com foco em novos amigos, parceiros e grupos. O aplicativo possui um sistema de "match" customizado, proporcionando uma experiência única.',
+  - title: Chalk,
+    subtitle: >
+      Desenvolvimento e lançamento de uma rede social para conectar pessoas, com foco em novos amigos, parceiros e grupos. O aplicativo possui um sistema de "match" customizado, proporcionando uma experiência única.,
     tags: ['React native', 'Expo', 'Firebase', 'I18N', 'Socket.io', 'Realm DB'],
     image: '/bg-placeholder.jpg',
     context: '',
