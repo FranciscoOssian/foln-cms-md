@@ -76,3 +76,12 @@ projects:
     tags: [React.js, Next.js, Github API, tailwind]
     image: /bg-placeholder.jpg
     icon: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/emoji-home.png?alt=media&token=47eeebba-9522-41e5-9dc6-143b6db4e810
+
+  - title: Celebra
+    context: ''
+    involvement: Projeto pessoal
+    category: Gerenciador de eventos
+    image: /bg-placeholder.jpg
+    subtitle: Gerencie eventos e crie páginas lindas para eles. Celebra é um criador e gerenciador de eventos, turbinado com um editor visual drag-and-drop para criar um visua para a web page do seus evento. Desenvolvido em apenas 1 mês como prova de conceito, possui features de criação de evento, listagem de eventos, venda de eventos.
+    tags: [React.js, Next.js, Stripe, Tailwind, OpenCage Geocoding API, ant design, puck editor, firebase, motion, recharts]
+    icon: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/emoji-home.png?alt=media&token=47eeebba-9522-41e5-9dc6-143b6db4e810
