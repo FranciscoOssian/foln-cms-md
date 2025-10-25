@@ -31,14 +31,18 @@ These notes are a cleaner and straight to the point version, intended for my per
 
 ## A tour of c++: The Basics
 
-ISO C++ defines two kinds of entities
+<details>
+<summary>ISO C++ defines two kinds of entities</summary>
 
 - Standard-library
 - Core language and I/O operations
 
+</details>
+
 ## Scope resolution operator
 
-It is used for the following purposes:
+<details>
+<summary>It is used for the following purposes:</summary>
 
 - Access a global variable even with a local variable with the same name.
 
@@ -87,7 +91,12 @@ int main() {
 // output "3 \n 5 \n"
 ```
 
+</details>
+
 ## Class
+
+<details>
+<summary>"The central language feature of C++ is the class"</summary>
 
 > "The central language feature of C++ is the class"
 >
@@ -226,7 +235,12 @@ class Box {
 
 ### Invariants
 
+</details>
+
 ## Enumerations
+
+<details>
+<summary>enum class and operator overloading</summary>
 
 ```c++
 enum class Color { red, blue , green };
@@ -250,9 +264,14 @@ Traffic_light& operator++(Traffic_light& t)
 Traffic_light next = ++light; // next becomes Traffic_light::green
 ```
 
-C++ also offers a less strongly typed ‘‘plain’’ enum (§8.4.2).
+C++ also offers a less strongly typed ''plain'' enum (§8.4.2).
+
+</details>
 
 ## Namespaces
+
+<details>
+<summary>Organizing code and avoiding name collisions</summary>
 
 - [x] can be nested
 
@@ -302,9 +321,12 @@ namespace Student{
 Student::readBook();
 ```
 
+</details>
+
 ## "Using" Directives
 
-Enables names within a namespace to be used without the namespace-name as an explicit qualifier.
+<details>
+<summary>Enables names within a namespace to be used without the namespace-name as an explicit qualifier</summary>
 
 ```c++
 using namespace JapanCars;
@@ -324,7 +346,12 @@ int main(){
 }
 ```
 
+</details>
+
 ## handling namespace + .h + .cpp
+
+<details>
+<summary>Best practices for namespace implementation across files</summary>
 
 Its like definition of structure, you can define the implementation of a method, fuction, ... inside a .h (inside of a definition of structure, class or namespace), but isn't a better pratice. If you will define your namespace (or class, struct, whatever) in a .h, the best way is define this methods in .c file. With this, you will use `::` operator (Scope resolution operator)
 
@@ -358,14 +385,24 @@ int FooBar::Bar(){
 }
 ```
 
+</details>
+
 ## Error Handling
+
+<details>
+<summary>Exceptions</summary>
 
 ### Exceptions
 
 - throw
 - try-catch
 
+</details>
+
 ## Overloading Operators
+
+<details>
+<summary>Examples and complete list of overloadable operators</summary>
 
 ### Examples
 
@@ -465,7 +502,12 @@ int main() {
   - `->` (member access through pointer)
   - `,` (comma, expression separator)
 
+</details>
+
 ## Templates
+
+<details>
+<summary>Template fundamentals and advanced concepts</summary>
 
 > "A template is a class or a function that we parameterize with a set of types or values"
 >
@@ -499,3 +541,5 @@ int main(){
   print(10.1); // Template argument deduction
 }
 ```
+
+</details>
