@@ -2,9 +2,6 @@
 
 ## Teorema Mestre
 
----
-
-
 ### $$T(n) = aT(n/b) + f(n)$$
 
 $$
@@ -38,8 +35,6 @@ $$
 
 ## Árvores de recursão
 
----
-
 ### $$T(n) = 2T(n/2) + n$$
 
 #### tabela inferida pela análise da árvore
@@ -51,8 +46,6 @@ $$
 | 2          | $$n/4$$      | $$4$$            | $$n/4$$          |
 | i          | $$n/2^i$$    | $$2^i$$          | $$n/2^i$$        |
 | ?          | $$1$$        | $$2^?$$          | $$1$$            |
-
----
 
 | nível      | tamanho      | num. de nós       | tempo por nó |
 |------------|--------------|-------------------|------------------|
@@ -67,8 +60,6 @@ $$
 $$ T(n) = \sum_{i=0}^{\text{número de níveis}} (\text{Tempo do Nível } i) * \text{número de nós do nível } i$$
 
 $$ T(n) = \sum_{i=0}^{\log_2 n} \frac{n}{2^i} * 2^i = n(log_2n + 1) = nlog_2n + n = \Theta(nlog_2n)$$
-
----
 
 ## Substituição
 
@@ -121,8 +112,6 @@ O algoritmo divide o vetor na metade, ordena recursivamente cada metade e depois
 *   Comparamos $$n^{\log_2 2} = n^1$$ com $$f(n) = n$$.
 *   **Empate (Caso 2):** $$\Theta(n \log n)$$.
 
----
-
 ## 2. Mergesort (Variação / 3-vias)
 
 ### Recorrência
@@ -139,8 +128,6 @@ O algoritmo divide o vetor em três partes, ordena cada uma e intercala as três
 *   **Empate (Caso 2):** $$\Theta(n \log n)$$.
 
 > **Nota:** Para o Teorema Mestre, $$n$$ e $$2n$$ pertencem à mesma classe de complexidade (Linear), por isso o resultado assintótico é o mesmo.
-
----
 
 ## 3. Trade-off: Por que o 3-vias é "pior"?
 
