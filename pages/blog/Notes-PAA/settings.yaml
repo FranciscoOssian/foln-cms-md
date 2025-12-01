@@ -1,0 +1,21 @@
+title: Anotações Analise de Algoritmos
+
+tags:
+  - Tecnologia
+  - Complexidade de algoritmos
+  - Recorrências
+  - Teorema Mestre
+  - Árvores de recursão
+  - Mergesort
+  - Divisão e Conquista
+  - Heapsort
+
+description: "Anotações de Francisco Ossian sobre Analise de Algoritmos: teorema mestre, recorrências, árvores de recursão, divisão e conquista, mergesort, heapsort"
+keywords: "Programação, Ciências da Computações, C++"
+
+OG:
+  title: "Blog - Anotações Analise de Algoritmos"
+  description: "Anotações de Francisco Ossian sobre Analise de Algoritmos: teorema mestre, recorrências, árvores de recursão, divisão e conquista, mergesort, heapsort"
+  url: "https://www.foln.dev/blog/Notes-PAA"
+  type: "article"
+  keywords: "Tecnologia, Complexidade de algoritmos, Recorrências, Teorema Mestre, Mergesort, Divisão e Conquista, Heapsort"
