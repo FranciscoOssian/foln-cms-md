@@ -44,7 +44,7 @@ $$
 
 #### tabela inferida pela análise da árvore
 
-| nível______| tamanho______| num. de nós______| tempo por nó |
+| nível      | tamanho      | num. de nós      | tempo por nó |
 |------------|--------------|------------------|------------------|
 | 0          | $$n$$        | $$1$$            | $$n$$            |
 | 1          | $$n/2$$      | $$2$$            | $$n/2$$          |
@@ -54,7 +54,7 @@ $$
 
 ---
 
-| nível______| tamanho______| num. de nós______ | tempo por nó |
+| nível      | tamanho      | num. de nós       | tempo por nó |
 |------------|--------------|-------------------|------------------|
 | 0          | $$n$$        | $$1$$             | $$n$$            |
 | 1          | $$n/2$$      | $$2$$             | $$n/2$$          |
