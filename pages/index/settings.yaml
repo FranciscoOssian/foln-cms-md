@@ -40,7 +40,7 @@ projects:
     subtitle: >
       Desenvolvimento e lançamento de uma rede social para conectar pessoas, com foco em novos amigos, parceiros e grupos. O aplicativo possui um sistema de "match" customizado, proporcionando uma experiência única.
     tags: [React native, Expo, Firebase, I18N, Socket.io, Realm DB]
-    image: /bg-placeholder.jpg
+    image: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/public%2Fassets%2Fprojects%2Fchalk-cover.jpg?alt=media&token=b94f0dfc-19cc-4bdd-bf4d-df4dbbe56289
     context: ''
     involvement: Projeto pessoal
     category: Aplicativo de rede social
@@ -53,27 +53,27 @@ projects:
     subtitle: >
       Desenvolvido junto com a equipa da Advance, de qual fiz parte da equipe de desenvolvimento web.
     tags: [React.js, Next.js, Github API, SCSS]
-    image: /bg-placeholder.jpg
+    image: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/public%2Fassets%2Fprojects%2Fisgh-cover.jpg?alt=media&token=c313dc8d-2a44-4199-9a78-e4cff14b14d2
     icon: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/unnamed.jpg?alt=media&token=cd395f22-84fd-4eff-8667-71321091868d
 
   - title: Celebra
     context: ''
     involvement: Projeto pessoal
     category: Gerenciador de eventos
-    image: /bg-placeholder.jpg
+    image: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/public%2Fassets%2Fprojects%2Fcelebra-cover.jpg?alt=media&token=ecbb3e92-381c-498b-b0ab-655fc54e81bd
     subtitle: Gerencie eventos e crie páginas lindas para eles. Celebra é um criador e gerenciador de eventos, turbinado com um editor visual drag-and-drop para criar um visua para a web page do seus evento. Desenvolvido em apenas 1 mês como prova de conceito, possui features de criação de evento, listagem de eventos, venda de eventos.
     tags: [React.js, Next.js, Stripe, Tailwind, OpenCage Geocoding API, ant design, puck editor, firebase, motion, recharts]
-    icon: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/emoji-home.png?alt=media&token=47eeebba-9522-41e5-9dc6-143b6db4e810
+    icon: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/public%2Fassets%2Ficons%2Fcelebra-icon.png?alt=media&token=0afd2461-0fa8-493f-8777-2417ebf730aa
 
   - title: Jobs
     context: ''
     involvement: Projeto pessoal
     category: Agregador de vagas
-    image: /bg-placeholder.jpg
+    image: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/public%2Fassets%2Fprojects%2Fjobs-cover.jpg?alt=media&token=94fd0d6b-8d5c-4dc7-ab21-fb2b4f370597
     subtitle: Agregador de vagas divulgadas em diversos repositórios do github, atualizada diariamente usando revalidação de dados do Next.js. Tendo um filtro de vagas personalizado podendo pesquisas pelas vagas de diversos repositórios. Utilizando para esse projeto next.js para o frontend e backend, tailwind para a estilização e github GraphQL para consultar o banco de dados.
     tags: [React.js, Next.js, Tailwind, Github GraphQL]
-    icon: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/emoji-home.png?alt=media&token=47eeebba-9522-41e5-9dc6-143b6db4e810
-  
+    icon: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/public%2Fassets%2Ficons%2Fjobs-icon.png?alt=media&token=f0870063-322c-46c5-818f-3cabfe69f3fa
+
   - title: CodeSlide
     context: ''
     involvement: Projeto pessoal
@@ -81,7 +81,7 @@ projects:
     subtitle: >
       Criação do Code Slide, uma interface para criação e apresentação de slides feitos a partir de Markdown. Projetei um editor Markdown com visualização em tempo real do slide convertido, uma feature para baixar o slide em formato .html, e uma feature de compartilhamento. Onde usando uma rede p2p o usuário consegue visualizar o slide de outra pessoa e ver a edição.
     tags: [React.js, Next.js, Marp, codemirror, P2P, WebRTC, tailwind]
-    image: /bg-placeholder.jpg
+    image: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/public%2Fassets%2Fprojects%2Fcodeslide-cover.jpg?alt=media&token=7380409c-b070-4272-9ccd-0d2c26d068e9
     icon: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/1.png?alt=media&token=651daebc-e8cb-4075-8c05-96c93f8b491a
 
   - title: Blog
@@ -91,5 +91,5 @@ projects:
     subtitle: >
       Desenvolvimento de um blog como repositório de aprendizado. Feita para isso uma biblioteca para consultar a API do Github e extrair arquivos .md e .yaml em um repositório como CMS do blog, feito em NEXT.js.
     tags: [React.js, Next.js, Github API, tailwind]
-    image: /bg-placeholder.jpg
-    icon: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/emoji-home.png?alt=media&token=47eeebba-9522-41e5-9dc6-143b6db4e810
+    image: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/public%2Fassets%2Fprojects%2Fblog-cover.jpg?alt=media&token=c4160bda-da40-4162-800e-cd5462432c19
+    icon: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/public%2Fassets%2Ficons%2Fblog-icon.png?alt=media&token=f1663703-adfa-40bd-be1c-9967b6b0703b
