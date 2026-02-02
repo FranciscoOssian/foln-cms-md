@@ -70,7 +70,7 @@ projects:
     involvement: Projeto pessoal
     category: Agregador de vagas
     image: /bg-placeholder.jpg
-    subtitle: Agregador de vagas divulgadas em diversos repositórios do github, atualizada diariamente usando revalidação de dados do Next.js. Tendo um filtro de vagas personalizado podendo pesquisas pelas vagas de diversos repositórios. Utilizando para esse projeto: next.js para o frontend e backend, tailwind para a estilização e github GraphQL para consultar o banco de dados.
+    subtitle: Agregador de vagas divulgadas em diversos repositórios do github, atualizada diariamente usando revalidação de dados do Next.js. Tendo um filtro de vagas personalizado podendo pesquisas pelas vagas de diversos repositórios. Utilizando para esse projeto next.js para o frontend e backend, tailwind para a estilização e github GraphQL para consultar o banco de dados.
     tags: [React.js, Next.js, Tailwind, Github GraphQL]
     icon: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/emoji-home.png?alt=media&token=47eeebba-9522-41e5-9dc6-143b6db4e810
   
