@@ -41,8 +41,8 @@ projects:
       Desenvolvimento e lançamento de uma rede social para conectar pessoas, com foco em novos amigos, parceiros e grupos. O aplicativo possui um sistema de "match" customizado, proporcionando uma experiência única.
     tags: [React native, Expo, Firebase, I18N, Socket.io, Realm DB]
     image: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/public%2Fassets%2Fprojects%2Fchalk-cover.jpg?alt=media&token=b94f0dfc-19cc-4bdd-bf4d-df4dbbe56289
-    context: ''
-    involvement: Projeto pessoal
+    context: Open Source
+    involvement: Criador
     category: Aplicativo de rede social
     icon: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/chalk-icon-gEQKlyu9TE.png?alt=media&token=25475572-f494-4886-94dd-bfb436586cb4
 
@@ -57,17 +57,47 @@ projects:
     icon: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/unnamed.jpg?alt=media&token=cd395f22-84fd-4eff-8667-71321091868d
 
   - title: Celebra
-    context: ''
-    involvement: Projeto pessoal
+    context: Open Source
+    involvement: Criador
     category: Gerenciador de eventos
     image: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/public%2Fassets%2Fprojects%2Fcelebra-cover.jpg?alt=media&token=ecbb3e92-381c-498b-b0ab-655fc54e81bd
     subtitle: Gerencie eventos e crie páginas lindas para eles. Celebra é um criador e gerenciador de eventos, turbinado com um editor visual drag-and-drop para criar um visua para a web page do seus evento. Desenvolvido em apenas 1 mês como prova de conceito, possui features de criação de evento, listagem de eventos, venda de eventos.
     tags: [React.js, Next.js, Stripe, Tailwind, OpenCage Geocoding API, ant design, puck editor, firebase, motion, recharts]
     icon: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/public%2Fassets%2Ficons%2Fcelebra-icon.png?alt=media&token=0afd2461-0fa8-493f-8777-2417ebf730aa
 
+  - title: Cveck
+    context: Open Source
+    involvement: Criador
+    category: Pipeline Agêntico & ATS Engine
+    subtitle: Pipeline autônomo baseado em LangGraph e Typst que adapta perfis profissionais a qualquer vaga com pontuação ATS determinística e validação factual sem alucinações.
+    tags:
+        - "LangGraph"
+        - "Python"
+        - "Typst"
+        - "FastAPI"
+        - "ATS Scoring"
+        - "Autonomous Agents"
+    icon: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/public%2Fassets%2Ficons%2Fcveck-icon.jpeg?alt=media&token=274957b7-406e-44aa-9829-3e739683386b
+    imagem: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/public%2Fassets%2Fprojects%2Fcveck-cover.jpeg?alt=media&token=1ab77425-b229-4ef8-a6f9-706a127d7cce
+  
+  - title: TINA
+    involvement: Criador
+    context: Open Source
+    category: Gerador Procedural de Sites (No-LLM)
+    subtitle: "Gerador procedural de websites que explora um universo curado de padrões de design a partir de sementes e palavras-chave — sem LLMs, com compilação instantânea em 0.04ms e determinismo total."
+    tags:
+      - "TypeScript"
+      - "Next.js"
+      - "Procedural Design"
+      - "Tailwind CSS"
+      - "Design Systems"
+      - "Deterministic PRNG"
+    image: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/public%2Fassets%2Fprojects%2Ftina-cover.jpeg?alt=media&token=62bc7a7a-b594-464a-8b4b-3cb75752f437
+    icon: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/public%2Fassets%2Ficons%2Ftine-icon.jpeg?alt=media&token=0224e90f-3303-41f8-ac20-d886d3567fc1
+
   - title: Jobs
-    context: ''
-    involvement: Projeto pessoal
+    context: Open Source
+    involvement: Criador
     category: Agregador de vagas
     image: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/public%2Fassets%2Fprojects%2Fjobs-cover.jpg?alt=media&token=94fd0d6b-8d5c-4dc7-ab21-fb2b4f370597
     subtitle: Agregador de vagas divulgadas em diversos repositórios do github, atualizada diariamente usando revalidação de dados do Next.js. Tendo um filtro de vagas personalizado podendo pesquisas pelas vagas de diversos repositórios. Utilizando para esse projeto next.js para o frontend e backend, tailwind para a estilização e github GraphQL para consultar o banco de dados.
@@ -75,8 +105,8 @@ projects:
     icon: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/public%2Fassets%2Ficons%2Fjobs-icon.png?alt=media&token=f0870063-322c-46c5-818f-3cabfe69f3fa
 
   - title: CodeSlide
-    context: ''
-    involvement: Projeto pessoal
+    context: Open Source
+    involvement: Criador
     category: Criador de Slides
     subtitle: >
       Criação do Code Slide, uma interface para criação e apresentação de slides feitos a partir de Markdown. Projetei um editor Markdown com visualização em tempo real do slide convertido, uma feature para baixar o slide em formato .html, e uma feature de compartilhamento. Onde usando uma rede p2p o usuário consegue visualizar o slide de outra pessoa e ver a edição.
@@ -85,7 +115,7 @@ projects:
     icon: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/1.png?alt=media&token=651daebc-e8cb-4075-8c05-96c93f8b491a
 
   - title: Blog
-    context: ''
+    context: Open Source
     involvement: Projeto pessoal
     category: Web site
     subtitle: >
