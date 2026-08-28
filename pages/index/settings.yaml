@@ -78,7 +78,7 @@ projects:
         - "ATS Scoring"
         - "Autonomous Agents"
     icon: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/public%2Fassets%2Ficons%2Fcveck-icon.jpeg?alt=media&token=274957b7-406e-44aa-9829-3e739683386b
-    imagem: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/public%2Fassets%2Fprojects%2Fcveck-cover.jpeg?alt=media&token=1ab77425-b229-4ef8-a6f9-706a127d7cce
+    image: https://firebasestorage.googleapis.com/v0/b/foln-dev.appspot.com/o/public%2Fassets%2Fprojects%2Fcveck-cover.jpeg?alt=media&token=1ab77425-b229-4ef8-a6f9-706a127d7cce
   
   - title: TINA
     involvement: Criador
