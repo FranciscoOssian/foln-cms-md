@@ -1,0 +1,14 @@
+title: "Como conectar um MCP local ao ChatGPT usando o Secure MCP Tunnel"
+tags:
+  - "Tecnologia"
+  - "Inteligência Artificial"
+  - "Desenvolvimento"
+description: "Guia rápido para conectar um servidor MCP local ao ChatGPT usando o Secure MCP Tunnel da OpenAI."
+keywords: "MCP, ChatGPT, Secure MCP Tunnel, OpenAI, tunnel-client, Model Context Protocol, MCP local, servidor MCP"
+
+OG:
+  title: "Blog - Como conectar um MCP local ao ChatGPT usando o Secure MCP Tunnel"
+  description: "Guia rápido de Francisco Ossian para conectar um servidor MCP local ao ChatGPT usando o Secure MCP Tunnel da OpenAI."
+  url: "https://www.foln.dev/blog/chatgpt-mcp-secure-tunnel"
+  type: "blog"
+  keywords: "MCP, ChatGPT, Secure MCP Tunnel, OpenAI, tunnel-client, Model Context Protocol"
