@@ -160,6 +160,26 @@ tunnel-client runtimes connect \
 ```
 
 O parâmetro `--mcp-command` pode ser substituído pelo comando necessário para iniciar qualquer outro MCP compatível com `stdio`.
+### Automatizando o processo
+
+Como esse comando depende de credenciais e precisa ser executado novamente quando o runtime é iniciado, criei um pequeno script para automatizar o gerenciamento desse runtime.
+
+O script recupera as credenciais utilizando o `pass` e disponibiliza dois comandos: `start`, para iniciar o runtime, e `stop`, para desconectá-lo.
+
+<script src="https://gist.github.com/FranciscoOssian/f95331a33740908165b20c8d84ba337d.js"></script>
+
+Para utilizá-lo diretamente:
+
+```bash
+# iniciar o runtime
+curl -sL https://gist.githubusercontent.com/FranciscoOssian/f95331a33740908165b20c8d84ba337d/raw | bash -s -- start
+
+# desconectar o runtime
+curl -sL https://gist.githubusercontent.com/FranciscoOssian/f95331a33740908165b20c8d84ba337d/raw | bash -s -- stop
+```
+
+O script é apenas uma camada de automação sobre os comandos do `tunnel-client`. As credenciais não ficam armazenadas no script: elas são recuperadas localmente pelo `pass`.
+
 
 ---
 
